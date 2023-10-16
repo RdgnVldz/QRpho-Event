@@ -33,22 +33,22 @@ function Footer() {
               <h5 className="footer_menu-title">Main Menus</h5>
               <ul>
                   <li>
-                      <a href="/QRpho-Events/">Home</a>
+                      <a href="/">Home</a>
                   </li>
                   <li>
-                      <a href="/QRpho-Events/features">Features</a>
+                      <a href="/features">Features</a>
                   </li>
                   <li>
-                      <a href="/QRpho-Events/pricing">Pricing</a>
+                      <a href="/pricing">Pricing</a>
                   </li>
                   <li>
-                      <a href="/QRpho-Events/howItWorks">How It Works</a>
+                      <a href="/howItWorks">How It Works</a>
                   </li>
                   <li>
-                      <a href="/QRpho-Events/login">Login</a>
+                      <a href="/login">Login</a>
                   </li>
                   <li>
-                      <a href="/QRpho-Events/signUp">SIGN UP FOR FREE</a>
+                      <a href="/signUp">SIGN UP FOR FREE</a>
                   </li>
               </ul>
             </div>

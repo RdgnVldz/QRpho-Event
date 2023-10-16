@@ -27,23 +27,23 @@ function Header() {
 
             <div className="desktop_menu">
                 <ul>
-                    <li className={isLinkActive("/QRpho-Events/") ? "active" : ""}>
-                        <a href="/QRpho-Events/">Home</a>
+                    <li className={isLinkActive("/") ? "active" : ""}>
+                        <a href="/">Home</a>
                     </li>
-                    <li className={isLinkActive("/QRpho-Events/features") ? "active" : ""}>
-                        <a href="/QRpho-Events/features">Features</a>
+                    <li className={isLinkActive("/features") ? "active" : ""}>
+                        <a href="/features">Features</a>
                     </li>
-                    <li className={isLinkActive("/QRpho-Events/pricing") ? "active" : ""}>
-                        <a href="/QRpho-Events/pricing">Pricing</a>
+                    <li className={isLinkActive("/pricing") ? "active" : ""}>
+                        <a href="/pricing">Pricing</a>
                     </li>
-                    <li className={isLinkActive("/QRpho-Events/howItWorks") ? "active" : ""}>
-                        <a href="/QRpho-Events/howItWorks">How It Works</a>
+                    <li className={isLinkActive("/howItWorks") ? "active" : ""}>
+                        <a href="/howItWorks">How It Works</a>
                     </li>
-                    <li className={isLinkActive("/QRpho-Events/login") ? "active" : ""}>
-                        <a href="/QRpho-Events/login">Login</a>
+                    <li className={isLinkActive("/login") ? "active" : ""}>
+                        <a href="/login">Login</a>
                     </li>
-                    <li className={isLinkActive("/QRpho-Events/signUp") ? "active" : ""}>
-                        <a href="/QRpho-Events/signUp">SIGN UP FOR FREE</a>
+                    <li className={isLinkActive("/signUp") ? "active" : ""}>
+                        <a href="/signUp">SIGN UP FOR FREE</a>
                     </li>
                 </ul>
             </div>
@@ -53,23 +53,23 @@ function Header() {
                     {isToggle ? <GrClose /> : <HiMenuAlt3 />}
                 </button>
                 <ul className={isToggle ? "show" : "hide"}>
-                    <li className={isLinkActive("/QRpho-Events/") ? "active" : ""}>
-                        <a href="/QRpho-Events/">Home</a>
+                    <li className={isLinkActive("/") ? "active" : ""}>
+                        <a href="/">Home</a>
                     </li>
-                    <li className={isLinkActive("/QRpho-Events/features") ? "active" : ""}>
-                        <a href="/QRpho-Events/features">Features</a>
+                    <li className={isLinkActive("/features") ? "active" : ""}>
+                        <a href="/features">Features</a>
                     </li>
-                    <li className={isLinkActive("/QRpho-Events/pricing") ? "active" : ""}>
-                        <a href="/QRpho-Events/pricing">Pricing</a>
+                    <li className={isLinkActive("/pricing") ? "active" : ""}>
+                        <a href="/pricing">Pricing</a>
                     </li>
-                    <li className={isLinkActive("/QRpho-Events/howItWorks") ? "active" : ""}>
-                        <a href="/QRpho-Events/howItWorks">How It Works</a>
+                    <li className={isLinkActive("/howItWorks") ? "active" : ""}>
+                        <a href="/howItWorks">How It Works</a>
                     </li>
-                    <li className={isLinkActive("/QRpho-Events/login") ? "active" : ""}>
-                        <a href="/QRpho-Events/login">Login</a>
+                    <li className={isLinkActive("/login") ? "active" : ""}>
+                        <a href="/login">Login</a>
                     </li>
-                    <li className={isLinkActive("/QRpho-Events/signUp") ? "active" : ""}>
-                        <a href="/QRpho-Events/signUp">SIGN UP FOR FREE</a>
+                    <li className={isLinkActive("/signUp") ? "active" : ""}>
+                        <a href="/signUp">SIGN UP FOR FREE</a>
                     </li>
                 </ul>
             </div>
