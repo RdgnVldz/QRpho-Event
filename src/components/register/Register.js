@@ -1,4 +1,5 @@
 import React from 'react';
+import{Link} from 'react-router-dom';
 import './register.css';
 import QRphoLogo2 from '../../assest/images/event-logo.png';
 import SVG1 from '../../assest/images/svg4.svg';
@@ -58,7 +59,7 @@ const Register = () => {
                         <p className='visit'>Already have an account?</p>
                         <div className='visit_us-icons visit_us-icons-r'>
 
-                        <p className=""><a href='/login' >Sign In</a></p>
+                        <p className=""><Link to='/login' >Sign In</Link></p>
 
                         </div>
                     </div>
