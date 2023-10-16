@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/QRpho-Event/static/css/main.67c15cf7.css",
+    "main.js": "/QRpho-Event/static/js/main.a3536091.js",
+    "static/media/hero_image.png": "/QRpho-Event/static/media/hero_image.5845489e2e559494b2f8.png",
+    "static/media/banner_2.png": "/QRpho-Event/static/media/banner_2.14cc9597ba2c7cccabdd.png",
+    "static/media/banner_4.jpg": "/QRpho-Event/static/media/banner_4.633187922b7b49018763.jpg",
+    "static/media/banner_1.png": "/QRpho-Event/static/media/banner_1.5fabb0287e1a96c28b0c.png",
+    "static/media/banner_3.png": "/QRpho-Event/static/media/banner_3.b59a93ffe9f9bdb1e9d2.png",
+    "static/media/event-logo-2.png": "/QRpho-Event/static/media/event-logo-2.48fc0c1b83d90564ee49.png",
+    "static/media/event-logo.png": "/QRpho-Event/static/media/event-logo.c98262552e4bbbdfe413.png",
+    "static/media/qrpho.png": "/QRpho-Event/static/media/qrpho.a97fb6ac1f1c244adb70.png",
+    "static/media/prodigydev.png": "/QRpho-Event/static/media/prodigydev.3565328015d4b8441b57.png",
+    "static/media/svg4.svg": "/QRpho-Event/static/media/svg4.fff7e78bab12671428c6556d8539e08f.svg",
+    "index.html": "/QRpho-Event/index.html",
+    "main.67c15cf7.css.map": "/QRpho-Event/static/css/main.67c15cf7.css.map",
+    "main.a3536091.js.map": "/QRpho-Event/static/js/main.a3536091.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67c15cf7.css",
+    "static/js/main.a3536091.js"
+  ]
+}
