@@ -1,0 +1,140 @@
+.hero_section{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.hero_section ul{
+    padding-left: 2rem;
+}
+
+.hero_text{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.hero_text h1{
+    font-size: 26px;
+    color: #3e3e3e;
+}
+
+.hero_text h1 span{
+    font-size: 26px;
+    color: var(--qrpho);
+}
+
+.hero_text ul li p{
+    font-size: 14px;
+    margin-bottom: .3rem;
+}
+
+.hero_image{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: calc(100% - 50%);
+    height: auto;
+    margin-top: 0.5rem;
+}
+
+.hero_image img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.event_action{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+    gap: 1.3rem;
+}
+
+.create_event{
+    border: 1px solid var(--qrpho);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    background-color: var(--qrpho);
+    cursor:pointer;
+}
+
+.create_event:hover{
+    background-color: var(--qrpho-hover);
+}
+
+.event_meeting{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.3rem;
+    width: 100%;
+}
+
+.event_meeting p{
+    font-size: 14px;
+}
+
+.join_meeting{
+    border: 1px solid var(--qrpho);
+    display: flex;
+    justify-content: space-between;
+    
+    width: auto;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.join_meeting input{
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.join_meeting button{
+    border: none;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px ;
+    border-radius: 0 0 0px 0px;
+    color: #fff;
+    text-align: center;
+    background-color: var(--qrpho);
+    cursor: pointer;
+}
+
+.join_meeting input:focus{
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .hero_section{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .hero_text,
+    .hero_image{
+        width: 100%;
+    }
+    
+    
+}
