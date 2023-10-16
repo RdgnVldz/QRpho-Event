@@ -32,25 +32,26 @@ function Footer() {
             <div className="footer_menus">
               <h5 className="footer_menu-title">Main Menus</h5>
               <ul>
-                  <li>
-                      <a href="/">Home</a>
-                  </li>
-                  <li>
-                      <a href="/features">Features</a>
-                  </li>
-                  <li>
-                      <a href="/pricing">Pricing</a>
-                  </li>
-                  <li>
-                      <a href="/howItWorks">How It Works</a>
-                  </li>
-                  <li>
-                      <a href="/login">Login</a>
-                  </li>
-                  <li>
-                      <a href="/signUp">SIGN UP FOR FREE</a>
-                  </li>
+                <li>
+                    <Link to="/">Home</Link>
+                </li>
+                <li>
+                    <Link to="/features">Features</Link>
+                </li>
+                <li>
+                    <Link to="/pricing">Pricing</Link>
+                </li>
+                <li>
+                    <Link to="/howItWorks">How It Works</Link>
+                </li>
+                <li>
+                    <Link to="/login">Login</Link>
+                </li>
+                <li>
+                    <Link to="/signUp">SIGN UP FOR FREE</Link>
+                </li>
               </ul>
+
             </div>
 
             <div className="footer_contact">
