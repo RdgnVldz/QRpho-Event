@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './header.css';
 import QRphoEvent from '../../assest/images/event-logo.png';
 import { GrClose } from 'react-icons/gr';
@@ -22,28 +22,28 @@ function Header() {
     return (
         <nav className="container header_section">
             <div className="qrpho-logo">
-                <a href="/"><img src={QRphoEvent} alt="QRpho Event Logo" /></a>
+                <Link to="/"><img src={QRphoEvent} alt="QRpho Event Logo" /></Link>
             </div>
 
             <div className="desktop_menu">
                 <ul>
                     <li className={isLinkActive("/") ? "active" : ""}>
-                        <a href="/">Home</a>
+                        <Link to="/">Home</Link>
                     </li>
                     <li className={isLinkActive("/features") ? "active" : ""}>
-                        <a href="/features">Features</a>
+                        <Link to="/features">Features</Link>
                     </li>
                     <li className={isLinkActive("/pricing") ? "active" : ""}>
-                        <a href="/pricing">Pricing</a>
+                        <Link to="/pricing">Pricing</Link>
                     </li>
                     <li className={isLinkActive("/howItWorks") ? "active" : ""}>
-                        <a href="/howItWorks">How It Works</a>
+                        <Link to="/howItWorks">How It Works</Link>
                     </li>
                     <li className={isLinkActive("/login") ? "active" : ""}>
-                        <a href="/login">Login</a>
+                        <Link to="/login">Login</Link>
                     </li>
                     <li className={isLinkActive("/signUp") ? "active" : ""}>
-                        <a href="/signUp">SIGN UP FOR FREE</a>
+                        <Link to="/signUp">SIGN UP FOR FREE</Link>
                     </li>
                 </ul>
             </div>
@@ -54,22 +54,22 @@ function Header() {
                 </button>
                 <ul className={isToggle ? "show" : "hide"}>
                     <li className={isLinkActive("/") ? "active" : ""}>
-                        <a href="/">Home</a>
+                        <Link to="/">Home</Link>
                     </li>
                     <li className={isLinkActive("/features") ? "active" : ""}>
-                        <a href="/features">Features</a>
+                        <Link to="/features">Features</Link>
                     </li>
                     <li className={isLinkActive("/pricing") ? "active" : ""}>
-                        <a href="/pricing">Pricing</a>
+                        <Link to="/pricing">Pricing</Link>
                     </li>
                     <li className={isLinkActive("/howItWorks") ? "active" : ""}>
-                        <a href="/howItWorks">How It Works</a>
+                        <Link to="/howItWorks">How It Works</Link>
                     </li>
                     <li className={isLinkActive("/login") ? "active" : ""}>
-                        <a href="/login">Login</a>
+                        <Link to="/login">Login</Link>
                     </li>
                     <li className={isLinkActive("/signUp") ? "active" : ""}>
-                        <a href="/signUp">SIGN UP FOR FREE</a>
+                        <Link to="/signUp">SIGN UP FOR FREE</Link>
                     </li>
                 </ul>
             </div>
