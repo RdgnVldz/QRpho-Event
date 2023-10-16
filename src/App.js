@@ -41,12 +41,12 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/features" component={Features} />
-        <Route path="/pricing" component={Pricing} />
-        <Route path="/howItWorks" component={HowItWorks} />
-        <Route path="/login" component={Login} />
-        <Route path="/signUp" component={SignUp} />
+        <Route path="/QRpho-Events" exact component={Home} />
+        <Route path="/QRpho-Events/features" component={Features} />
+        <Route path="/QRpho-Events/pricing" component={Pricing} />
+        <Route path="/QRpho-Events/howItWorks" component={HowItWorks} />
+        <Route path="/QRpho-Events/login" component={Login} />
+        <Route path="/QRpho-Events/signUp" component={SignUp} />
       </Switch>
     </Router>
   );
