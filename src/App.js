@@ -39,7 +39,7 @@ import SignUp from './pages/SignUp';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/QRpho-Event">
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/features" component={Features} />
