@@ -29,7 +29,7 @@
 
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'; // Use HashRouter
 import Home from './pages/Home';
 import Features from './pages/Features';
 import Pricing from './pages/Pricing';
@@ -39,7 +39,7 @@ import SignUp from './pages/SignUp';
 
 const App = () => {
   return (
-    <Router basename="/QRpho-Event">
+    <Router>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/features" component={Features} />
